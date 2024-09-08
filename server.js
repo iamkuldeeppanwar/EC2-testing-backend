@@ -11,6 +11,7 @@ app.get("/", (req, res) => {
   res.status(200).json({
     name: process.env.USER,
     message: "Hosted Successfully!",
+    data: "Data araha Shobhit?",
   });
 });
 
